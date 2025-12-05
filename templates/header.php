@@ -1,0 +1,12 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<header class="bg-white shadow-md">
+    <nav class="container mx-auto flex justify-between items-center py-4">
+      <h1 class="text-2xl font-bold text-blue-600">DigitalWave</h1>
+      <ul class="flex space-x-6">
+        <li><a href="/home" class="<?php echo $page === "home" ? "text-blue-600" : "hover:text-blue-600"?>">Accueil</a></li>
+        <li><a href="/services" class="<?php echo $page === "services" ? "text-blue-600" : "hover:text-blue-600"?>">Services</a></li>
+        <li><a href="/about" class="<?php echo $page === "about" ? "text-blue-600" : "hover:text-blue-600"?>">À propos</a></li>
+        <li><a href="/contact" class="<?php echo $page === "contact" ? "text-blue-600" : "hover:text-blue-600"?>">Contact</a></li>
+      </ul>
+    </nav>
+</header>
