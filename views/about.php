@@ -1,3 +1,6 @@
+<?php
+require_once __DIR__ . "/../templates/header.php";
+?>
 <section>
   <h2 class="text-3xl font-bold mb-6">À propos de NovaCraft Studio</h2>
 
@@ -11,4 +14,6 @@
     modernes, élégantes et centrées sur l’utilisateur.
   </p>
 </section>
-
+<?php
+require_once __DIR__ . "/../templates/footer.php";
+?>

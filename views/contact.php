@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . "/../templates/header.php";
+
+?>
+
 <section class="max-w-xl mx-auto">
   <h2 class="text-3xl font-bold mb-8 text-center">Contactez-nous</h2>
 
@@ -26,4 +31,8 @@
       Envoyer
     </button>
   </form>
-</section>
+</section> 
+
+<?php
+require_once __DIR__ . "/../templates/footer.php";
+?>

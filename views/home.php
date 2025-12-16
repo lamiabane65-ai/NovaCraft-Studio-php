@@ -1,3 +1,6 @@
+<?php
+require_once __DIR__ . "/../templates/header.php";
+?>
 <section class="text-center">
   <h2 class="text-4xl font-bold mb-4">Créons des expériences digitales uniques</h2>
   <p class="text-lg text-gray-600 mb-8">
@@ -9,4 +12,6 @@
     Découvrir nos services
   </a>
 </section>
-
+<?php
+require_once __DIR__ . "/../templates/footer.php";
+?>

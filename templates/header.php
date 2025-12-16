@@ -10,13 +10,33 @@
 
 <header class="bg-white shadow">
   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold text-indigo-600">NovaCraft Studio</h1>
+    
+    <h1 class="text-2xl font-bold text-indigo-600">
+      NovaCraft Studio
+    </h1>
+
     <nav class="space-x-6">
-      <a href="?page=home" class="hover:text-indigo-600">Accueil</a>
-      <a href="?page=about" class="hover:text-indigo-600">À propos</a>
-      <a href="?page=services" class="hover:text-indigo-600">Services</a>
-      <a href="?page=contact" class="hover:text-indigo-600">Contact</a>
+      <a href="/home"
+         class="<?php echo $page === 'home' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
+         Accueil
+      </a>
+
+      <a href="/about"
+         class="<?php echo $page === 'about' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
+         À propos
+      </a>
+
+      <a href="/services"
+         class="<?php echo $page === 'services' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
+         Services
+      </a>
+
+      <a href="/contact"
+         class="<?php echo $page === 'contact' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
+         Contact
+      </a>
     </nav>
+
   </div>
 </header>
 

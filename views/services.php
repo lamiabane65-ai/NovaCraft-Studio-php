@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . "/../templates/header.php";
+?>
+
 <section>
   <h2 class="text-3xl font-bold mb-10 text-center">Nos services</h2>
 
@@ -24,3 +28,8 @@
     </div>
   </div>
 </section>
+
+<?php
+require_once __DIR__ . "/../templates/footer.php";
+?>
+
