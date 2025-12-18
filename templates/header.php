@@ -6,38 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800">
 
-<header class="bg-white shadow">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    
-    <h1 class="text-2xl font-bold text-indigo-600">
-      NovaCraft Studio
+<body class="bg-slate-950 text-slate-100">
+
+<header class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur border-b border-slate-800">
+  <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+
+    <h1 class="text-xl font-extrabold tracking-wide text-cyan-400">
+      NovaCraft
     </h1>
 
-    <nav class="space-x-6">
-      <a href="/home"
-         class="<?php echo $page === 'home' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
-         Accueil
-      </a>
-
-      <a href="/about"
-         class="<?php echo $page === 'about' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
-         À propos
-      </a>
-
-      <a href="/services"
-         class="<?php echo $page === 'services' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
-         Services
-      </a>
-
-      <a href="/contact"
-         class="<?php echo $page === 'contact' ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600'; ?>">
-         Contact
-      </a>
+    <nav class="flex gap-8 text-sm uppercase tracking-wider">
+      <a href="/home" class="<?= $page === 'home' ? 'text-cyan-400' : 'hover:text-cyan-400' ?>">Accueil</a>
+      <a href="/about" class="<?= $page === 'about' ? 'text-cyan-400' : 'hover:text-cyan-400' ?>">À propos</a>
+      <a href="/services" class="<?= $page === 'services' ? 'text-cyan-400' : 'hover:text-cyan-400' ?>">Services</a>
+      <a href="/contact" class="<?= $page === 'contact' ? 'text-cyan-400' : 'hover:text-cyan-400' ?>">Contact</a>
     </nav>
 
   </div>
 </header>
 
-<main class="max-w-7xl mx-auto px-6 py-10">
+<main class="max-w-7xl mx-auto px-6 py-16">
+
